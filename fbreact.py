@@ -52,8 +52,9 @@ class Machine:
             '6': 'sad', 
             '7': 'angry'
         }
-        self.selected_reactions = []
-        self.logged_in_accounts = []
+        self.selected_reactions = [2]
+        self.logged_in_accounts = [1
+                                  ]
         self.headers = {
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
             'accept-language': 'en-US,en;q=0.5',
